@@ -43,11 +43,14 @@ body{
    width: 980px;
 }
 .informations-me{
-   background-color: rgb(0, 89, 169);
+   background-color: #002D58;
    display: flex;
    flex-flow: row nowrap;
    justify-content: space-between;
    padding: 2px;
+   height: 20px;
+   align-items: center;
+   margin: 0.1em 0;
 }
 .name-page h1{
    font-size: 1.4em;
@@ -75,9 +78,15 @@ body{
    flex-flow: row nowrap;
    align-items: center;
    margin-bottom: 10px;
+   
 }
 .time *{
    margin-right: 4px;
+}
+.time select{
+   border: 1px solid #002D58;
+   padding: 3px;
+   font-family: Arial, Tahoma;
 }
 table{
    width: 950px;
@@ -102,9 +111,9 @@ td{
    text-align: -webkit-center;
 }
 .addresses{
-   color: White;
-   background-color: #0059A9;
-   font-weight: bold;
+   color: #002D58;
+   background-color: white;
+  
    text-align: -webkit-center;
    border-color: grey;
    border-collapse: collapse;
@@ -112,14 +121,14 @@ td{
 }
 .odd{
    background-color: white;
-   color: #0059A9;
+   color: #002D58;
 }
 .even{
-   color: #0059A9;
-    background-color: LightSteelBlue;
+   color: #002D58;
+    background-color: #e8e6df;
 }
 a{
-   color: blue;
+   color: #002D58;
    font-weight: bold;
 }
 .GPA{
@@ -131,4 +140,11 @@ a{
 }
 .GPA a{
    margin-left: 3px;
+}
+.Instructions h3{
+   font-size: 1.2em;
+   padding: 10px 0 10px 0px;
+   margin: 0px;
+   font-weight: bold;
+   text-decoration: underline;
 }
